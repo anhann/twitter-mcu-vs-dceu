@@ -1,2 +1,2 @@
 # twitter-mcu-vs-dceu
-Brand Analysis using Twitter data - MCU vs DCEU
+Text and Network Analysis using Twitter data - MCU vs DCEU
