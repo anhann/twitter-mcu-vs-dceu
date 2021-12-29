@@ -32,10 +32,10 @@ from sklearn.model_selection import GridSearchCV
 from wordcloud import STOPWORDS
 
 #import twitter key
-CONSUMER_KEY = 'IZQ8CyodPG2rNJBLNJbuMWD6y'
-CONSUMER_SECRET = 'H8kAZFZ9UlqNOZcMQ4PDvKrg5NIQrTlrK3aU3hWQ3hgT9Obh0C'
-OAUTH_TOKEN = '1388067604007370753-R5hHaiG9CW84jpMCTdKeWZwHp9XuUv'
-OAUTH_TOKEN_SECRET = 'UvRhAcUt6mWx3W9FxEZ0bahZIhCnTx5HDl3ZTYAfQ1qmS'
+CONSUMER_KEY = input()
+CONSUMER_SECRET = input()
+OAUTH_TOKEN = input()
+OAUTH_TOKEN_SECRET = input()
 
 #-- login to Twitter with all your authorization details
 auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
